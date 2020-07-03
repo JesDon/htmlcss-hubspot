@@ -8,17 +8,17 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
-/* topbar */
 .container{
   width: 80%;
   margin: auto;
 }
 
+/* topbar */
 .topbar{
   height: 60px;
   background-color: #F4F9FD;
   border-bottom: 1px solid #33475B;
-  line-height: 60px;
+  line-height: 40px;
 }
 
 .topbar::after{
@@ -38,14 +38,20 @@ body{
   color: #33475B;
   padding: 10px;
   cursor: pointer;
+  font-weight: bold;
+}
+
+.topbar-left{
+  text-align: left;
+  float: left;
 }
 
 .fa-globe-americas{
   font-size: 12px;
 }
 
-.topbar-left{
-  text-align: left;
+.fa-chevron-down{
+  padding-left: 2px;
 }
 
 .fa-search{
@@ -55,22 +61,28 @@ body{
   text-align: right;
 }
 
+
+.fa-search{
+  color: #00A48D
+}
+
 .button{
   border: 1px solid #F4F9FD;
   padding: 7px;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  font-size: 12px;
+  font-size: 13px;
   border-radius: 5px;
 }
 
 .login{
   background-color: white;
-  color: #FFAB7D;
+  color: #FF8E59;
+  border: 1px solid #FF8E59;
 }
 
 .gethub{
-background-color: #FFAB7D;
+background-color: #FF8E59;
 color: white;
 }
 /* /topbar */
