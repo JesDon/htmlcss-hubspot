@@ -9,6 +9,13 @@ body{
   color: #33475B;
 }
 
+p{
+  font-size: 12px;
+  margin-bottom: 20px;
+  text-align: justify;
+  line-height: 1.6;
+}
+
 .container{
   width: 70%;
   margin: auto;
@@ -137,12 +144,6 @@ body{
   margin-bottom: 20px;
 }
 
-.banner-left .banner-p{
-  font-size: 12px;
-  margin-bottom: 20px;
-  text-align: justify;
-  line-height: 1.6;
-}
 
 .banner-left .banner-p2{
   font-size: 10px;
@@ -161,3 +162,35 @@ body{
   border-bottom: 2px solid #33475B;
 }
 /* /banner-bottom */
+
+/* main */
+/* section-cube */
+.cube-container{
+  width: 50%;
+  margin: auto;
+}
+
+.cube{
+  height: 300px;
+  text-align: center;;
+}
+
+.cube img{
+  width: 200px;
+  padding-top: 30px;
+}
+
+.cube p{
+  text-align: center;
+  padding-top: 20px;
+}
+/* /section-cube */
+
+/* sezione freehub */
+.freehub{
+  background-color: red;
+  border: 2px solid black;
+  height: 300px;
+  margin-bottom: 20px;
+}
+/* /ezione freehub */
