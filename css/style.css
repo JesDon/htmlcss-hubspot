@@ -3,3 +3,73 @@
   margin: 0;
   padding: 0;
 }
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+header{
+  height: 600px;
+}
+
+/* topbar */
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+.topbar{
+  height: 60px;
+  background-color: #F4F9FD;
+  border-bottom: 1px solid #33475B;
+}
+
+
+.menu-inline{
+  list-style: none;
+}
+
+.menu-inline li{
+  display: inline-block;
+  cursor: pointer;
+  font-size: 12px;
+  color: #33475B;
+}
+
+.fa-globe-americas{
+  font-size: 12px;
+}
+
+.topbar-left{
+text-align: left;
+}
+
+.topbar-right{
+  text-align: right;
+}
+/* /topbar */
+
+/* topbar-bottom */
+.topbar-bottom{
+  height: 60px;
+  background-color: white;
+  border-bottom: 1px solid #33475B;
+}
+/* /topbar-bottom */
+
+/* banner */
+.banner{
+  height: 400px;
+  background-color: #FFF1EF;
+  border-bottom: 2px solid #33475B;
+}
+/* /banner */
+
+/* banner-bottom */
+.banner-bottom{
+  height: 60px;
+  background-color: #7BDED2;
+  border-bottom: 2px solid #33475B;
+}
+/* /banner-bottom */
