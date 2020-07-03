@@ -6,10 +6,11 @@
 
 body{
   font-family: 'Roboto', sans-serif;
+  color: #33475B;
 }
 
 .container{
-  width: 80%;
+  width: 70%;
   margin: auto;
 }
 
@@ -35,7 +36,6 @@ body{
   display: inline-block;
   cursor: pointer;
   font-size: 12px;
-  color: #33475B;
   padding: 10px;
   cursor: pointer;
   font-weight: bold;
@@ -67,7 +67,7 @@ body{
 }
 
 .button{
-  border: 1px solid #F4F9FD;
+  border: 1px solid #FF8F59;
   padding: 7px;
   text-align: center;
   font-family: 'Roboto', sans-serif;
@@ -77,11 +77,11 @@ body{
 
 .login{
   background-color: white;
-  color: #FF8E59;
-  border: 1px solid #FF8E59;
+  color: #FF8F59;
+  border: 1px solid #FF8F59;
 }
 
-.gethub{
+.btn-orange{
   background-color: #FF8E59;
   color: white;
 }
@@ -92,7 +92,6 @@ body{
 .topbar-bottom{
   height: 60px;
   background-color: white;
-  border-bottom: 1px solid #33475B;
   line-height: 40px;
 }
 
@@ -114,16 +113,51 @@ body{
 
 /* banner */
 .banner{
-  height: 400px;
+  height: 450px;
   background-color: #FFF1EF;
   border-bottom: 2px solid #33475B;
+  position: relative;
+  background-image: url(../img/jumbotron.png);
+  background-repeat: no-repeat;
+  background-size: 1200px;
+  background-position: 100% 48%;
+}
+
+.banner-left{
+  width: 50%;
+  position: absolute;
+  top: 40%;
+  left: 15%;
+  transform: translateY(-50%);
+}
+
+.banner-left H1{
+  font-size: 40px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.banner-left .banner-p{
+  font-size: 12px;
+  margin-bottom: 20px;
+  text-align: justify;
+  line-height: 1.6;
+}
+
+.banner-left .banner-p2{
+  font-size: 10px;
+}
+.banner-left .btn-orange{
+  padding: 15px 25px;
+  margin-bottom: 20px;
+
 }
 /* /banner */
 
 /* banner-bottom */
 .banner-bottom{
   height: 60px;
-  background-color: #7BDED2;
+  background-color: #AFEBE4;
   border-bottom: 2px solid #33475B;
 }
 /* /banner-bottom */
