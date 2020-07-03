@@ -25,7 +25,6 @@ header{
   border-bottom: 1px solid #33475B;
 }
 
-
 .menu-inline{
   list-style: none;
 }
@@ -35,6 +34,7 @@ header{
   cursor: pointer;
   font-size: 12px;
   color: #33475B;
+  padding: 10px;
 }
 
 .fa-globe-americas{
@@ -42,11 +42,18 @@ header{
 }
 
 .topbar-left{
-text-align: left;
+  text-align: left;
 }
 
+.fa-search{
+  font-size: 15px;
+}
 .topbar-right{
   text-align: right;
+}
+
+.button{
+
 }
 /* /topbar */
 
