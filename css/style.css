@@ -41,6 +41,7 @@ body{
   font-weight: bold;
 }
 
+/* topbar-left */
 .topbar-left{
   text-align: left;
   float: left;
@@ -53,16 +54,15 @@ body{
 .fa-chevron-down{
   padding-left: 2px;
 }
+/* /topbar-left */
 
-.fa-search{
-  font-size: 15px;
-}
+/* topbar-right */
 .topbar-right{
   text-align: right;
 }
 
-
 .fa-search{
+  font-size: 15px;
   color: #00A48D
 }
 
@@ -82,9 +82,10 @@ body{
 }
 
 .gethub{
-background-color: #FF8E59;
-color: white;
+  background-color: #FF8E59;
+  color: white;
 }
+/* /topbar-right */
 /* /topbar */
 
 /* topbar-bottom */
@@ -92,6 +93,22 @@ color: white;
   height: 60px;
   background-color: white;
   border-bottom: 1px solid #33475B;
+  line-height: 40px;
+}
+
+.topbar-bottom img{
+  float: left;
+  width: 8%;
+  padding-top: 18px;
+}
+
+.topbar-bottom-menu{
+  text-align: right;
+}
+
+.topbar-bottom-menu .fa-chevron-down{
+  padding-left: 15px;
+  padding-top: 17px;
 }
 /* /topbar-bottom */
 
