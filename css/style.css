@@ -7,6 +7,7 @@
 body{
   font-family: 'Roboto', sans-serif;
   color: #33475B;
+  background-color: #F4F9FD;
 }
 
 p{
@@ -24,7 +25,6 @@ p{
 /* topbar */
 .topbar{
   height: 60px;
-  background-color: #F4F9FD;
   border-bottom: 1px solid #33475B;
   line-height: 40px;
 }
@@ -84,12 +84,12 @@ p{
 
 .login{
   background-color: white;
-  color: #FF8F59;
-  border: 1px solid #FF8F59;
+  color: #FE775A;
+  border: 1px solid #FE775A;
 }
 
 .btn-orange{
-  background-color: #FF8E59;
+  background-color: #FE775A;
   color: white;
 }
 /* /topbar-right */
@@ -163,16 +163,13 @@ p{
 }
 /* /banner-bottom */
 
-/* main */
-main{
-  background-color: #F4F9FD;
-}
 
+/* main */
 /* section-cube */
 .cube-container{
   width: 50%;
   margin: auto;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .cube{
@@ -192,12 +189,12 @@ main{
 /* /section-cube */
 
 /* sezione freehub */
-.freehub{
+.cont-white{
   background-color: white;
-  border: 1px solid;
-  box-shadow: 8px 8px 8px 8px lightgrey;
+  border: 1px solid grey;
+  /* box-shadow: 8px 8px 8px 8px lightgrey; */
   height: 250px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   position: relative;
 }
 
@@ -207,6 +204,10 @@ main{
   position: absolute;
   top: 40%;
   transform: translateY(-50%);
+}
+.freehub-left .btn-orange{
+  padding: 15px 25px;
+  margin-bottom: 20px;
 }
 
 .freehub-right{
@@ -223,7 +224,7 @@ main{
   text-transform: uppercase;
 }
 .freehub-right ul{
-  list-style:
+  list-style: none;
 }
 
 .freehub-right li{
@@ -231,8 +232,6 @@ main{
   cursor: pointer;
   font-size: 12px;
   padding: 10px;
-  cursor: pointer;
-  font-weight: bold;
 }
 
 .freehub-right .fa-check-circle{
@@ -240,4 +239,54 @@ main{
   color: #FF8E59;
 }
 /* /sezione freehub */
+
+/* sezione tre colonne */
+.three-columns .cont-white{
+  height: 500px;
+  width: 30%;
+  float: left;
+  text-align: center;
+}
+
+#center-cont-white{
+  margin: 0 5%;
+}
+
+.inner-container{
+  margin: 30px;
+}
+
+.three-columns .cont-white img{
+  padding-bottom: 20px;
+}
+
+.three-columns .cont-white p{
+  text-align: center;
+  padding: 20px 0;
+}
+
+.inner-container h5{
+  padding: 20px 0;
+  text-transform: uppercase;
+}
+.inner-container ul{
+  list-style: none;
+  padding-bottom: 30px
+}
+
+.inner-container li{
+  cursor: pointer;
+  font-size: 12px;
+  text-align: left;;
+}
+
+.inner-container .fa-check-circle{
+  padding-right: 10px;
+  color: #FF8E59;
+}
+
+.inner-container button{
+  padding: 15px 25px;
+}
+
 /* /main */
