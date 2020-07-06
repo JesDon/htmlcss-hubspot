@@ -165,7 +165,7 @@ p{
 
 
 /* main */
-/* section-cube */
+/* sezione img cubi */
 .cube-container{
   width: 50%;
   margin: auto;
@@ -186,7 +186,7 @@ p{
   text-align: center;
   padding-top: 20px;
 }
-/* /section-cube */
+/* /sezione img cubi */
 
 /* sezione freehub */
 .cont-white{
@@ -277,7 +277,7 @@ p{
 .inner-container li{
   cursor: pointer;
   font-size: 12px;
-  text-align: left;;
+  text-align: left;
 }
 
 .inner-container .fa-check-circle{
@@ -288,5 +288,128 @@ p{
 .inner-container button{
   padding: 15px 25px;
 }
+/* /sezione tre colonne */
 
+
+/* sezione verde */
+.green-section{
+  background-color: #00AFB3;
+  height: 1050px;
+}
+
+.green-section h2{
+  text-align: center;
+  padding-top: 30px;
+}
+
+.green-section p{
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+
+
+
+.box{
+  background-color: lightgrey;
+  height: 150px;
+  width: 25%;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  float: left;
+  text-align: center;
+}
+
+.box-right{
+  background-color: lightgrey;
+  height: 150px;
+  width: 25%;
+  border-bottom: 1px solid black;
+  float: left;
+  text-align: center;
+}
+
+.box-container{
+  padding: 10px;
+}
+  /* /sezione verde */
+
+/* ultima sezione */
+/* ultima sezione top */
+.main-bottom{
+  background-color: white;
+  height: 530px;
+}
+
+.sponsor{
+  height: 200px;
+}
+
+.sponsor-left{
+  width: 40%;
+  padding: 50px;
+  position: relative;
+}
+.sponsor-left h1{
+  font-weight: bolder;
+  font-size: 40px;
+}
+.sponsor-left ul{
+  list-style: none;
+  padding-top: 20px;
+}
+
+.sponsor-left li{
+  font-size: 12px;
+  text-align: left;
+}
+
+.sponsor-right{
+  width: 60%;
+  float: right;
+  text-align: center;
+  transform: translateY(-160%);
+}
+/* /ultima sezione top */
+
+/* ultima sezione bottom */
+.growing{
+  height: 400px;
+  padding-top: 30px;
+}
+
+.growing-left{
+  width: 40%;
+}
+
+.growing-left h2{
+ font-weight: bolder;
+}
+
+.growing p{
+  padding-top: 30px;
+}
+
+.growing button{
+  padding: 15px 25px;
+}
+
+.growing-p2{
+  font-size: 10px;
+}
+.growing-right{
+  width: 60%;
+}
+
+.growing-right img{
+  float: right;
+
+}
+/* /ultima sezione bottom */
 /* /main */
+
+/* footer */
+footer{
+  height: 400px;
+  background-color: black;
+}
+}
