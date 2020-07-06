@@ -409,7 +409,87 @@ p{
 
 /* footer */
 footer{
-  height: 400px;
-  background-color: black;
+  height: 460px;
+  background-color: #32495B;
 }
+
+.four-columns div{
+  width: 25%;
+  height: 300px;
+  float: left;
+}
+
+.four-columns .list-top{
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  padding: 20px 0 15px 0;
+}
+
+.four-columns ul{
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+.four-columns li{
+  color: #F4F9FD;
+  line-height: 2.2;
+  font-size: 12px;
+}
+
+.four-columns button{
+  border: none;
+  color: ##F4F9FD;
+}
+
+.four-columns .social{
+  font-size: 12px;
+  color: #F4F9FD;
+  /* display: inline-block; */
+}
+
+.languages{
+  height: 50px;
+  clear: both;
+  border-bottom: 1px solid #F4F9FD;
+}
+
+.lang-list ul{
+  list-style: none;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.lang-list li{
+  display: inline-block;
+  font-size: 12px;
+  color: #F4F9FD;
+  padding: 10px;
+}
+
+.footer-left{
+  width: 50%;
+  padding-top: 20px;
+}
+
+.footer-left p{
+  color: #F4F9FD;
+  font-size: 12px;
+}
+
+.footer-right{
+  width: 50%;
+  float: right;
+  text-align: right;
+}
+
+.footer-right ul{
+  list-style: none;
+}
+
+.footer-right li{
+  color: #F4F9FD;
+  font-size: 12px;
+  display: inline-block;
+  padding-left: 10px;
 }
