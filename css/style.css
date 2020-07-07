@@ -417,9 +417,6 @@ p{
   font-size: 10px;
 }
 .growing-right{
-  width: 60%;
-  float: left;
-  text-align: right;
   position: relative;
 }
 
@@ -427,6 +424,7 @@ p{
   position: absolute;
   right: 0;
   top: 0;
+  transform: translateY(-10%);
 }
 /* /ultima sezione main */
 /* /main */
@@ -467,12 +465,17 @@ footer{
   color: #32495B;
   background-color:#EAF0F6;
   padding: 7px;
+  margin-bottom: 8px;
 }
 
 .four-columns .social{
   font-size: 12px;
   color: #EAF0F6;
-  /* display: inline-block; */
+}
+
+.four-columns .social li{
+  display: inline;
+  padding-right: 15px;
 }
 /* /sezione quattro colonne */
 
@@ -499,6 +502,7 @@ footer{
 .footer-left{
   width: 50%;
   padding-top: 20px;
+  float: left;
 }
 
 .footer-left p{
@@ -511,6 +515,7 @@ footer{
   width: 50%;
   float: right;
   text-align: right;
+  padding-top: 30px;
 }
 
 .footer-right ul{
