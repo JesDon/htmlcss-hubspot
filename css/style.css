@@ -73,7 +73,6 @@ p{
   background-color: white;
   color: #33475B;
   border: 1px solid lightgrey;
-  padding: 12px;
   z-index: 1;
 }
 
@@ -82,6 +81,11 @@ p{
 }
 .dropdown-content li:hover{
   background-color: #F4F9FD;
+}
+
+.dropdown-content li{
+  width: 100%;
+  padding: 12px;
 }
 
 .topbar-left{
@@ -510,12 +514,6 @@ footer{
   background-color: #CBD6E2;
   padding: 7px;
   margin-bottom: 8px;
-}
-
-.four-columns .social{
-  font-size: 12px;
-  color: #CBD6E2;
-  cursor: pointer;
 }
 
 .four-columns .social li{
