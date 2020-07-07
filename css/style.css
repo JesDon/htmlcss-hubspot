@@ -294,7 +294,7 @@ p{
 
 /* sezione verde */
 .green-section{
-  background-image: linear-gradient(to top right, #00AFB3, #07B6AC);
+  background-image: linear-gradient(to top right, #00AFB3, #00BCA5);
   /* background-color: #00AFB3; */
   height: 500px;
   color: #F4F9FD;
@@ -317,7 +317,6 @@ p{
   }
 
 .box{
-  background-color: #00AFB3;
   height: 130px;
   width: 25%;
   float: left;
@@ -345,8 +344,8 @@ p{
   padding-bottom: 10px;
 }
 
-#box-img {
-  padding-top: 6px;
+.boxes img {
+  padding: 15px 0 10px 0;
 }
 
 #box-fas{
@@ -400,6 +399,7 @@ p{
   display: inline-block;
   padding-right: 15px;
   text-align: center;
+  vertical-align: middle;
 }
 
 /* .c3{
