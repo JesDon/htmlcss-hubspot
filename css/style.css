@@ -300,7 +300,11 @@ p{
   color: #F4F9FD;
 }
 
-.green-section h2, p{
+.green-section h2{
+  text-align: center;
+}
+
+.green-section p{
   text-align: center;
 }
 
