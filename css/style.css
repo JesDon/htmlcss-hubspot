@@ -363,7 +363,7 @@ p{
 }
 
 .customers{
-  height: 200px;
+  height: 220px;
 }
 
 .customers-left{
@@ -385,24 +385,27 @@ p{
   text-align: left;
 }
 
+
 .customers-right{
-position: relative;
+  width: 60%;
+  float: right;
+  transform: translateY(-160%);
 }
 
-.customers-img{
-position: absolute;
-top: 0;
-right: 120px;
-transform: translateY(-180%);
+.customers-right ul{
+  list-style: none;
 }
 
-.customers-img img{
-  padding-left: 20px;
+.customers-right li{
+  display: inline-block;
+  padding-right: 15px;
+  text-align: center;
 }
 
-#cust-img{
+/* .c3{
+  padding-top: 25px;
+} */
 
-}
 /* /ultima sezione top */
 
 /* ultima sezione bottom */
