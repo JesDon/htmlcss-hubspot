@@ -38,6 +38,7 @@ p{
   padding: 15px 25px;
   background-color: #FE775A;
   color: white;
+  cursor: pointer;
 }
 /* /valori generici */
 
@@ -64,7 +65,7 @@ p{
 .topbar-left{
   text-align: left;
   float: left;
-  padding-top: 8px;
+  padding-top: 10px;
 }
 
 .fa-globe-americas{
@@ -85,6 +86,7 @@ p{
   font-size: 12px;
   color: #00A48D;
   padding-right: 10px;
+  cursor: pointer;
 }
 
 .btn-login{
@@ -111,6 +113,7 @@ p{
   float: left;
   width: 8%;
   padding-top: 18px;
+  cursor: pointer;
 }
 
 .topbar-bottom-menu{
@@ -460,7 +463,6 @@ footer{
 .four-columns .list-top{
   font-size: 12px;
   font-weight: bold;
-  color: white;
   padding: 20px 0 10px 0;
 }
 
@@ -473,6 +475,11 @@ footer{
   color: #CBD6E2;
   line-height: 2.2;
   font-size: 12px;
+  cursor: pointer;
+}
+
+.four-columns li:hover{
+  color: #7FD1DE;
 }
 
 .btn-footer{
@@ -486,11 +493,16 @@ footer{
 .four-columns .social{
   font-size: 12px;
   color: #CBD6E2;
+  cursor: pointer;
 }
 
 .four-columns .social li{
   display: inline;
   padding-right: 15px;
+}
+
+.social li:hover{
+  color: #7FD1DE;
 }
 /* /sezione quattro colonne */
 
@@ -512,6 +524,11 @@ footer{
   font-size: 12px;
   color: #CBD6E2;
   padding: 10px;
+  cursor: pointer;
+}
+
+.lang-list li:hover{
+  color: #7FD1DE;
 }
 
 .footer-left{
@@ -542,6 +559,11 @@ footer{
   font-size: 12px;
   display: inline-block;
   padding-left: 10px;
+  cursor: pointer;
+}
+
+.footer-right li:hover{
+  color: #7FD1DE;
 }
 /* /sezione lingue e fondo pagina */
 /* /footer */
