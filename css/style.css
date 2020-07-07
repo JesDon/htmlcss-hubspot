@@ -73,14 +73,14 @@ p{
   background-color: white;
   color: #33475B;
   border: 1px solid lightgrey;
-  padding: 12px 16px;
+  padding: 12px;
   z-index: 1;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
-.dropdown-content:hover{
+.dropdown-content li:hover{
   background-color: #F4F9FD;
 }
 
