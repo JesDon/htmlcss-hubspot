@@ -128,14 +128,14 @@ p{
 
 /* banner */
 .banner{
-  height: 450px;
+  height: 580px;
   background-color: #FFF1EF;
   border-bottom: 2px solid #33475B;
   position: relative;
   background-image: url(../img/jumbotron.png);
   background-repeat: no-repeat;
-  background-size: 1200px;
-  background-position: 100% 48%;
+  background-size: 100%;
+  background-position: top right;
 }
 
 .banner-left{
