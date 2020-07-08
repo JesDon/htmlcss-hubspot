@@ -381,6 +381,11 @@ p{
   font-size: 30px;
   padding: 13px 0 13px 0;
 }
+
+#box-fas2{
+  font-size: 30px;
+  padding: 13px 0 13px 0;
+}
   /* /sezione verde */
 
 /* ultima sezione main */
@@ -391,7 +396,7 @@ p{
 }
 
 .customers{
-  height: 220px;
+  height: 230px;
 }
 
 .customers-left{
@@ -417,7 +422,7 @@ p{
 .customers-right{
   width: 60%;
   float: right;
-  transform: translateY(-160%);
+  transform: translateY(-140%);
 }
 
 .customers-right ul{
@@ -515,6 +520,7 @@ footer{
   padding: 7px;
   margin-bottom: 8px;
 }
+
 
 .four-columns .social li{
   display: inline;
